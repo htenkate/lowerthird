@@ -1,0 +1,47 @@
+body, html {
+    
+    background-color: transparent;
+  font-family: "poppins";
+     
+}
+
+#slideshow {
+  margin: 0px auto;
+  position: relative;
+  width: 1120px;
+  height: 80px;
+ 
+  overflow: hidden;
+background-color: #111;
+    bottom:30px;
+    top: 75vh;
+    align-content: center;
+        vertical-align: middle;
+    
+}
+
+#slideshow > div {
+  position: absolute;
+    vertical-align: middle;
+ 
+}
+
+.bg {
+    
+    z-index: -99999;
+}
+
+.breakout {
+    color: #222;
+    position: absolute;
+    z-index: 99;
+    left: 250px;
+    top:32px;
+}
+
+
+
+
+
+
+import url(https://fonts.googleapis.com/css?family=Poppins);
