@@ -1,0 +1,78 @@
+ 
+body, html {
+    
+    background-color: transparent;
+    font-family: "Poppins" !imporant;
+    color: #ffffff;
+}
+
+#slideshow {
+  margin: 0px auto;
+  position: relative;
+  width: 1120px;
+  height: 80px;
+  overflow: hidden;
+    bottom:30px;
+    top: 75vh;
+    align-content: center;
+    vertical-align: middle;
+    
+}
+
+#slideshow > div {
+  position: absolute;
+    vertical-align: middle;
+ 
+}
+
+.bg {  
+    
+ }
+
+.breakout {
+    color: #222 !important;
+    position: absolute;
+    z-index: 99;
+    left: 250px;
+    top:32px;
+}
+
+
+
+
+
+
+
+.animatedUp {
+    
+    animation-name: animateUp;
+    animation-duration: 0.5s;
+    transition-timing-function: cubic-bezier(1.000, 0.010, 0.000, 0.995); /* custom */ 
+ 
+    
+}
+
+.animatedDown {
+    
+    animation-name: animateDown;
+    animation-duration: 0.5s;
+    transition-timing-function: cubic-bezier(1.000, 0.010, 0.000, 0.995); /* custom */ 
+    animation-delay: 2.7s;
+    
+}
+
+
+@keyframes animateUp {
+  from   {margin-top: 80px;transform: scale(1.8);}
+  to {margin-top: 0px;transform: scale(1.0);}
+}
+ 
+
+@keyframes animateDown {
+  from   {margin-top: 0px;}
+  to {margin-top: 80px;}
+}
+
+
+
+import url(https://fonts.googleapis.com/css?family=Poppins);
